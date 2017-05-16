@@ -1,7 +1,8 @@
 apply plugin: 'jacoco'
 
 ext {
-    jacocoReportsBaseDir = file("$buildDir/reports/jacoco")
+    /* jacocoReportsBaseDir = file("$buildDir/reports/jacoco") */
+    jacocoReportsBaseDir = file("$buildDir/jacoco")
     jacocoReportsExecDir = file("$jacocoReportsBaseDir/exec")
     jacocoReportsHtmlDir = file("$jacocoReportsBaseDir/html")
 }
